@@ -1,0 +1,192 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(65, 46, 32);
+}
+.box-all-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container-book{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, darkorange,  rgb(65, 46, 32));
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    perspective: 10000px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+.livro{
+    width: 350px;
+    height: 500px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateX(-24deg) rotateY(-324deg);
+}
+.face-front-back{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+}
+.face-left-right{
+    position: absolute;
+    width: 11%;
+    height:100%;
+}
+.face-top-bottom{
+    position: absolute;
+    width: 11%;
+    height: 70%;
+}
+.fronte{
+    background-image: url(img/front_Book.jpeg);
+    background-size: cover;
+    transform:rotateX(0deg) translateZ(20px);
+}
+.back{
+    background-color: rgb(255, 195, 127);
+    transform:rotateX(0deg) translateZ(-20px);
+}
+.left{
+    background-color: rgb(255, 195, 127);
+    transform:rotateY(90deg) translateZ(-21px);
+}
+.right{
+    background-color: #fff;
+    transform:rotateY(90deg) translateZ(331px);
+}
+.top{
+    background-color: #Fff;
+    transform:rotateX(90deg) rotateZ(90deg) translateY(-156px) translateZ(175px) ;
+}
+.bottom{
+    background-color: #fff;
+    transform:rotateX(90deg) rotateZ(90deg) translateY(-156px) translateZ(-325px) ;
+}
+.container-about{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(65, 46, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-about{
+    width: 100%;
+    margin: 50px;
+}
+.content-bookName{
+    font-size: 17pt;
+    padding-bottom: 5px;
+    font-family: 'genR', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(252, 140, 99);
+}
+.content-autorName{
+    padding-bottom: 10px;
+    font-size: 10pt;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(252, 140, 99);
+}
+.item-autorName{
+    border-bottom: 2px solid rgb(252, 140, 99);
+    padding-bottom: 15px ;
+    width: 350px;
+    font-style: italic;
+    font-weight: 500;
+    font-family:'most',Arial, Helvetica, sans-serif;
+    font-size: 21pt;
+}
+@font-face {
+    font-family:'genB';
+    src: url('/AppleGaramond.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'genR';
+    src: url('/GenBasR.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'most';
+    src: url('/Mosthat.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.description{
+    font-family:'genB',Arial, Helvetica, sans-serif;
+    font-size: 17pt;
+    line-height: 25px;
+    color: rgb(252, 140, 99);
+    margin-bottom: 20px;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(252, 140, 99);
+    color:rgb(65, 46, 32);
+    font-weight: bold;
+    border: 2px solid rgb(252, 140, 99);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    font-size: 12pt;
+}
+.ancora-btn{
+    text-decoration: none;
+    color: #fff;
+}
+.btn:hover{
+   background-color: rgb(243, 135, 96);
+}
+.content-botton{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    padding-top: 20px;
+}
+.right-arrow{
+    width: 70px;
+    height: 36px;
+    border:2px solid rgb(252, 140, 99);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.value-bnt-preço{
+    font-family:'genB',Arial, Helvetica, sans-serif;
+    color:#fff;
+    font-size: 12pt;
+    
+}
+@media(max-width:1250px){
+    .content{
+    margin-left: 0px;
+    }
+    .box-all-content{
+    display: block;  
+    }
+    .description{
+    font-size: 17pt;
+     }
+     .content-about{
+    margin: 5px;
+    padding: 30px;
+    }
+}   

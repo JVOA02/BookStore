@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>livro</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="box-all-content">
+    <div class="container-book">
+    <div class="content">
+        <div class="livro">
+            <div class="face-front-back fronte"></div>
+            <div class="face-front-back back"></div>
+            <div class="face-left-right left"></div>
+            <div class="face-left-right right"></div>
+            <div class="face-top-bottom top"></div>
+            <div class="face-top-bottom bottom"></div>
+        </div>
+    </div>
+</div>
+<div class="container-about">
+<div class="content-about">
+    <div class="content-bookName">
+    <h1>Educação para as relações étnico-racias:
+        paradigmas e desafios
+    </h1>
+</div>
+<div class="content-autorName">
+    <h2 class="item-autorName">Rosana Fátima de Arruda</h2>
+</div>
+<div class="about-book">
+    <p class="description">
+       O presente estudo teve o objetivo
+       de compreender e interpretar sob a perspectiva
+       das ciências sociais aspectos acerca das
+       políticas públicas, particularmente no que diz
+       respeito à implementação da Lei n. 10.639/03,
+       que levam a escola e professores a desenvolver
+       práticas pedagógicas para a educação das relações
+       étnico-raciais. As abordagens utilizadas pela pesquisa
+        foi á qualitativa e os instrumentos de coleta de dados
+        se deu por observação, análise de documentos (PPP, plano de ensino),
+        questionários e entrevistas.
+        Emfin, te convido a emergir e se deleitar nestas pagínas. Boa leitura!
+    </p>
+</div>
+<div class="content-botton">
+<button class="btn" type="button"><a class="ancora-btn" href="https://www.janina.com.br/produto/educacao-para-as-geracoes-etnico-raciais-317809">Comprar</a></button>
+<div class="right-arrow"><h1 class="value-bnt-preço">R$23,00</h1></div>
+</div>
+</div>
+</div>
+</div>
+    <!-- at the end of the body -->
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".livro"), {
+            max: 25,
+            speed: 400,
+            glare:true,
+            "max-glare":0.5,
+            reset:false,
+            startY:-16,
+            startX:-30,
+            perspective:10000,
+            scale:0.9,
+        });   
+        VanillaTilt.init(document.querySelectorAll(".container-book"), {
+            max: 25,
+            speed: 400,
+            listening:TRUE,
+        });   
+    </script>
+</body>
+</html>
