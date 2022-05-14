@@ -60,7 +60,7 @@ body{
     transform:rotateX(0deg) translateZ(-20px);
 }
 .left{
-    background-color: rgb(255, 195, 127);
+    background-color: rgb(252, 144, 94);
     transform:rotateY(90deg) translateZ(-21px);
 }
 .right{
