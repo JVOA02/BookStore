@@ -21,4 +21,4 @@
 #### REDE SOCIAL DA AUTORA:
 ➡️ https://www.instagram.com/rosanafatimade/
 ## PARA UTILIZAR O PROJETO, ACESSE
-➡️ https://jvoa02.github.io/landing_page/
+➡️ https://jvoa02.github.io/Rosana_F_Arruda/
