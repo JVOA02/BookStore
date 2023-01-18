@@ -1,8 +1,12 @@
 
 
 #
-<img align="right" alt="CALCULADORA-pic" height="500" style="border-radius:50px;" src="https://github.com/JVOA02/BookStore/blob/main/book.gif">
-#
+<img align="right" alt="CALCULADORA-pic" height="550" style="border-radius:50px;" src="https://github.com/JVOA02/BookStore/blob/main/description-book.PNG">
+
+<img align="right" alt="CALCULADORA-pic" height="550" style="border-radius:50px;" src="https://github.com/JVOA02/BookStore/blob/main/book.gif">
+
+
+
 
 # 📚 Educação para as relações étnico-raciais: paradigmas e desafios📚 
 ## 🖥️ Utilizando HTML, CSS e JavaScript 🖥️
